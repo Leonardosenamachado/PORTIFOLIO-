@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Leonardo Sena</h1>
+        <nav class="nav">
+          <ul class="nav__list pure-menu-list">
+            <li class="nav__item pure-menu-item">
+              <a href="#about" class="nav__link pure-menu-link button">Sobre</a>
+            </li>
+            <li class="nav__item pure-menu-item">
+              <a href="#skills" class="nav__link pure-menu-link button"
+                >Habilidades</a
+              >
+            </li>
+            <li class="nav__item pure-menu-item">
+              <a href="#projects" class="nav__link pure-menu-link button"
+                >Projetos</a
+              >
+            </li>
+            <li class="nav__item pure-menu-item">
+              <a href="#contact" class="nav__link pure-menu-link button"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section__title">Sobre Mim</h2>
+          <p>
+            Olá, sou Leonardo Sena Machado, estudante de Engenharia de Software
+            na UNICESUMAR. Meu foco é no desenvolvimento Back-End e Front End
+            utilizando tecnologias como NodeJs, JavaScript, HTML, CSS.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2 class="section__title">Habilidades</h2>
+          <div class="skills__grid">
+            <div class="skill">
+              <h3 class="skill__title">HTML5 & CSS3</h3>
+              <div class="skill__bar html"></div>
+            </div>
+            <div class="skill">
+              <h3 class="skill__title">JavaScript</h3>
+              <div class="skill__bar js"></div>
+            </div>
+            <div class="skill">
+              <h3 class="skill__title">React.js</h3>
+              <div class="skill__bar react"></div>
+            </div>
+            <div class="skill">
+              <h3 class="skill__title">UI/UX Design</h3>
+              <div class="skill__bar uiux"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2 class="section__title">Projetos</h2>
+          <div class="projects__grid pure-g" id="github-repos-list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section__title">Contato</h2>
+          <a
+            href="https://github.com/Leonardosenamachado?tab=repositories"
+            class="button"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
